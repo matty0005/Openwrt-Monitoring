@@ -20,7 +20,7 @@ services:
       - prometheus:/prometheus
 #####################################################################################
   collectd-exporter:
-    image: prom/collectd-exporter:main
+    image: prom/collectd-exporter:master
     container_name: collectd-exp-home
     restart: always
     command:
