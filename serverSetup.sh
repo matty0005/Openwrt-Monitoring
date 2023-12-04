@@ -4,7 +4,7 @@
 CURRENT_USER=$(whoami)
 
 # Set the Router IP address
-ROUTER_IP="10.0.5.1"
+ROUTER_IP="10.10.0.1"
 
 # Check if the ROUTER_IP is set to the default value
 if [ "$ROUTER_IP" == "10.0.5.1" ]; then

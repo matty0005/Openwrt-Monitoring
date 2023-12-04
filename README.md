@@ -1,3 +1,7 @@
+# Personal modification
+
+
+I have removed the grafana part since I already have it installed
 
 ## Intro
 * This project consists of a few applications to help monitor your Openwrt router. You will need a decent router (anything from 2-3yrs ago will work) with dual core CPU, with 256mb-512mb of RAM and 128mb nand. 

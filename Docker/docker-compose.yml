@@ -1,18 +1,5 @@
 version: '3.5'
 services:
-################################################################################
-  grafana:
-    image: grafana/grafana:latest
-    restart: always
-    container_name: grafana-home
-    networks:
-      - internal
-    user: "$UID:$GID"
-    ports:
-      - 3000:3000
-    volumes:
-      - ./grafana-storage:/var/lib/grafana
-####################################################################################
   prometheus-home:
     image: prom/prometheus:latest
     container_name: prometheus-home
