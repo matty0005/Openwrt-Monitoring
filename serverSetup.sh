@@ -41,7 +41,7 @@ fi
 
 
 # Clone the repository
-git clone https://github.com/benisai/Openwrt-Monitoring.git
+git clone https://github.com/matty0005/Openwrt-Monitoring.git
 # Cleaning up files that are not needed on the docker server
 rm -r ./Openwrt-Monitoring/Python
 rm -r ./Openwrt-Monitoring/Router
